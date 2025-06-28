@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusion Bee - Bakery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, .tagline {
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-yellow-100 p-6 shadow-md flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <img src="logo.png" alt="Fusion Bee Logo" class="h-12 w-12 rounded-full">
+      <h1 class="text-3xl font-bold text-yellow-900">Fusion Bee</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="#home" class="hover:text-yellow-700">Home</a>
+      <a href="#about" class="hover:text-yellow-700">About</a>
+      <a href="#menu" class="hover:text-yellow-700">Menu</a>
+      <a href="#gallery" class="hover:text-yellow-700">Gallery</a>
+      <a href="#contact" class="hover:text-yellow-700">Contact</a>
+      <a href="#order" class="hover:text-yellow-700">Order</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="text-center p-10 bg-yellow-200">
+    <h2 class="text-4xl tagline">Sweetness That Stings with Joy</h2>
+    <p class="mt-4 text-lg">Welcome to Fusion Bee – Where every bite brings a buzz of delight!</p>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="p-10 bg-white">
+    <h2 class="text-2xl font-semibold mb-4">About Us</h2>
+    <p>At Fusion Bee, we blend flavors and traditions to create unforgettable baked delights. From soft cupcakes to crusty breads, every product is made with love and care.</p>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="p-10 bg-yellow-100">
+    <h2 class="text-2xl font-semibold mb-6">Our Menu</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/150" alt="Cupcake" class="w-full h-40 object-cover mb-2">
+        <h3 class="text-xl font-bold">Chocolate Cupcake</h3>
+        <p class="text-yellow-700">₹50</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/150" alt="Donut" class="w-full h-40 object-cover mb-2">
+        <h3 class="text-xl font-bold">Honey Donut</h3>
+        <p class="text-yellow-700">₹40</p>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/150" alt="Bread" class="w-full h-40 object-cover mb-2">
+        <h3 class="text-xl font-bold">Fusion Bread</h3>
+        <p class="text-yellow-700">₹60</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="p-10 bg-white">
+    <h2 class="text-2xl font-semibold mb-6">Gallery</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <img src="https://via.placeholder.com/300x200" class="rounded shadow">
+      <img src="https://via.placeholder.com/300x200" class="rounded shadow">
+      <img src="https://via.placeholder.com/300x200" class="rounded shadow">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="p-10 bg-yellow-100">
+    <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+    <p class="mb-2">📞 Phone: <a href="tel:7036278382" class="text-yellow-800 font-bold">7036278382</a></p>
+    <p>📧 Email: <a href="mailto:info@fusionbee.com" class="text-yellow-800 font-bold">info@fusionbee.com</a></p>
+  </section>
+
+  <!-- Order Online -->
+  <section id="order" class="p-10 bg-white text-center">
+    <h2 class="text-2xl font-semibold mb-4">Order Online</h2>
+    <p class="mb-4">Click below to place your order on WhatsApp. No payment gateway required!</p>
+    <a href="https://wa.me/917036278382?text=Hi%20Fusion%20Bee%2C%20I%20would%20like%20to%20place%20an%20order!" target="_blank" class="inline-flex items-center bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="h-6 w-6 mr-2"> Order on WhatsApp
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-200 text-center p-4">
+    &copy; 2025 Fusion Bee Bakery. All rights reserved.
+  </footer>
+</body>
+</html>
